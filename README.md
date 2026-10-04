@@ -2,6 +2,10 @@
 
 A lightweight, modern Linux GUI utility to control multi-monitor brightness with true **DDC/CI hardware control** for external displays and native backlight control for laptop screens.
 
+<p align="center">
+  <img src="assets/screenshot.png" alt="Display Brightness Manager Screenshot" width="460">
+</p>
+
 ---
 
 ## 🌟 Features
@@ -55,6 +59,8 @@ python3 app.py
 ```text
 display-brightness-manager/
 ├── app.py           # Main GUI application (Python 3 + Tkinter)
+├── assets/
+│   └── screenshot.png # App screenshot
 ├── icon.svg         # High-resolution vector icon
 ├── install.sh       # Automated installer script
 ├── uninstall.sh     # Clean uninstaller script
